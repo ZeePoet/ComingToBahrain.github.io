@@ -1,0 +1,266 @@
+body {
+
+    font-size: 12pt;
+  
+    font-family: Arial, Helvetica, sans-serif;
+  
+    color: white;
+  
+    line-height: 14pt;
+  
+    padding-left: 5pt;
+  
+    padding-right: 5pt;
+  
+    padding-top: 5pt;
+
+    background-color:red;
+  
+    text-align: center;
+  }
+  
+  header{
+    color: white;
+    float: left;
+  }
+  
+  h1 {
+  
+    font: 14pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+  
+    font-weight: bold;
+  
+    line-height: 20pt;
+
+    color: white;
+  
+  }
+
+  h2 {
+  
+    font: 12pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+  
+    font-weight: bold;
+  
+    line-height: 20pt;
+
+    color: rgb(255, 0, 0);
+  
+  }
+  
+  
+
+a.active{
+  color: white;
+}
+
+
+  p {
+
+    font: 14pt;
+
+    font-style: normal;
+  
+    font-family: 'Courier New', Courier, monospace;
+    
+    color: white;
+}
+
+ul {
+
+  font: 14pt;
+
+  font-style: normal;
+
+  font-family: 'Courier New', Courier, monospace;
+  
+  color: white;
+
+  text-align: left;
+}
+
+
+  
+  
+  img.imgHome {
+  
+    padding: 3pt;
+  
+    float: left;
+
+  }
+
+  img {
+  
+    padding: 3pt;
+  
+    display: block;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+  
+  }
+  
+  
+  a {
+  
+    text-decoration: none
+    white;
+    white-space: normal;
+  
+  }
+  
+  
+  a:link, a:visited {
+  
+    color: #fcfcfc;
+  
+  }
+  
+  
+  a:hover, a:active {
+  
+    color: #ffffff;
+  
+  }
+  
+  
+  div.footer {
+  
+    font-size: 9pt;
+  
+    font-style: italic;
+  
+    line-height: 12pt;
+  
+    text-align: center;
+  
+    padding-top: 30pt;
+  
+  }
+
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: -1;
+  top: 0%;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: red;
+}
+
+
+.right {
+  right: 0;
+  background-color: white;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.centered img {
+  width: 200px;
+  border-radius: 40%;
+}
+
+p.righttext{
+  color: red;
+}
+
+h2.leftt{
+  color: white;
+}
+
+a:hover{
+  background-color: orange;
+}
+
+.header {
+  width: 100%;
+  background: black;
+  text-align: center;
+}
+
+.centeredup {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.centereddown {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.header table {font-size: 20px;
+  float: right;
+  clear: both;
+  background: none;
+  padding-right: 65px;
+  height: 100%;}
+
+
+.header table tr td {
+  color: White;
+  padding: 0px 5px 0px 5px;
+  background: red;
+}
+
+.header a.navigationMenu {
+  color: White;
+  text-decoration: none;
+}
+
+.header a.navigationMenu:hover {
+  color: red;
+}
+
+
+
+.header2 table tr td {
+  color: red;
+  padding: 0px 5px 0px 5px;
+  background: white;
+}
+
+.header2 a.navigationMenu {
+  color: red;
+  text-decoration: none;
+}
+
+.header2 a.navigationMenu:hover {
+  color: white;
+}
+
+.header2 table {font-size: 20px;
+  float: right;
+  clear: both;
+  background: none;
+  padding-right: 65px;
+  height: 100%;}
+
+@media screen and (max-width: 1000px){}
+
+
+
